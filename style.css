@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 * {
-  margin: 0;
+  margin: 15px;
   padding: 0;
   box-sizing: inherit;
 }
@@ -164,9 +164,4 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
-}
-
-.hidden {
-
-  display:none;
 }
