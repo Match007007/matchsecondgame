@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 * {
   margin: 15px;
@@ -12,11 +12,11 @@ html {
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #2da5c9 0%, #19667e75 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,10 +27,10 @@ main {
   position: relative;
   width: 100rem;
   height: 60rem;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(24, 30, 106, 0.905);
   backdrop-filter: blur(200px);
   filter: blur();
-  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3rem 5rem rgba(172, 181, 197, 0.25);
   border-radius: 9px;
   overflow: hidden;
   display: flex;
@@ -64,7 +64,7 @@ main {
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(57, 125, 214, 0.309);
 }
 .player--active .name {
   font-weight: 700;
@@ -78,7 +78,7 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #2f93c9;
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
